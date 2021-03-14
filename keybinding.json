@@ -1,0 +1,3 @@
+{ "key": "tab",                  "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible" },
+{ "key": "tab",                   "command": "-acceptSelectedSuggestion"},
