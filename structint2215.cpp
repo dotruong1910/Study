@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 struct Student{
-    string msv;
+    int msv;
     string name;
     double gpa;
 };
@@ -48,11 +48,12 @@ Fraction reduceFrac( Fraction &n){
 int main(){
     int n; cin >> n;
     Student st;
+    char c;
     double max = -999999.0;
     vector<string> v;
     vector<double> _gpa;
     for(int i = 0; i < n;i++){
-        getline(cin,st.msv,',');
+        cin >> st.msv>>c;
         getline(cin,st.name,',');
         v.push_back(st.name);
         cin >> st.gpa;

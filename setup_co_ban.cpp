@@ -46,7 +46,6 @@ int main(){
         a[i] = i;
     }
         //*đánh tất cả các giá trị là true
-
     for(int i = 2; i<=n;i++){
         b[i] = true;
     }
