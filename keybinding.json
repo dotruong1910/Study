@@ -1,3 +1,14 @@
-{ "key": "tab",                  "command": "selectNextSuggestion",
-    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible" },
-{ "key": "tab",                   "command": "-acceptSelectedSuggestion"},
+{
+    "key": "ctrl+shift+t",
+    "command": "shellLauncher.launch"
+},
+
+//and this will help you quickly change console
+{ 
+    "key": "ctrl+shift+j", 
+    "command": "workbench.action.terminal.focusNext" 
+},
+{
+    "key": "ctrl+shift+k", 
+    "command": "workbench.action.terminal.focusPrevious" 
+}`
